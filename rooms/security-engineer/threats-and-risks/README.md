@@ -1,22 +1,14 @@
-# Room: Introduction to Security Engineering
+# Room: Threats and Risks
 
-**Date:** 15 October 2025  
+**Date:** 16 October 2025  
 **Difficulty:** Beginner  
-**TryHackMe link:** https://tryhackme.com/room/introto
 
 ---
 
 ## Sections
 Klik salah satu section di bawah untuk membaca detailnya:
 
-1. [Security Engineer Intro](security-engineer-intro.md)  
-2. [Network Basics](02-network-basics.md)  
-3. [CIA Triad](03-cia-triad.md)  
-4. [Common Attacks](04-common-attacks.md)  
-5. [Summary & Notes](05-concepts-summary.md)
-
----
-
-## How I use this room
-- Saya simpan ringkasan per section supaya mudah di-review.
-- Screenshot dan perintah penting saya taruh di masing-masing section file.
+1. [Governance & Regulation](security-engineer-intro.md)  
+2. [Security Principles](security-principles.md)  
+3. [Introduction to Cryptography](introduction-to-cryptography.md)  
+4. [Identify and Access Management](identify-and-access-management.md)  
