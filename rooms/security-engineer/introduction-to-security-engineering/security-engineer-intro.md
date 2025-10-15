@@ -1,4 +1,4 @@
-# 🧩 Section 1 — Security Engineer Intro
+# Section 1 — Security Engineer Intro
 
 **🔗 Link:** [TryHackMe — Security Engineer Intro](https://tryhackme.com/room/securityengineerintro)
 
