@@ -1,6 +1,6 @@
 # Room: Introduction to Security Engineering
 
-**Date:** 15 October 2025  
+**Date:** 16 October 2025  
 **Difficulty:** Beginner  
 **TryHackMe link:** https://tryhackme.com/room/introto
 
