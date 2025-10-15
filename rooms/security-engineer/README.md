@@ -3,12 +3,12 @@
 Ini kumpulan room yang saya selesaikan di **Security Engineer** path di TryHackMe.
 
 ## Room list
-| No | Room | Difficulty | Link |
-|----|------|------------|------|
-| 1 | Introduction to Security Engineering | Beginner | [Open room](introduction-to-security-engineering/README.md) |
-| 2 | Room 2 name | Easy | [Open room](room-2/README.md) |
-| 3 | Room 3 name | Medium | [Open room](room-3/README.md) |
-| 4 | Room 4 name | Medium | [Open room](room-4/README.md) |
-| 5 | Room 5 name | Hard | [Open room](room-5/README.md) |
+| No | Room | Link |
+|----|------|------|
+| 1 | Introduction to Security Engineering | [Open room](introduction-to-security-engineering/README.md) |
+| 2 | Threats and Risks | [Open room](threats-and-risks/README.md) |
+| 3 | Network and System Security | [Open room](network-and-system-security/README.md) |
+| 4 | Software Security | [Open room](software-security/README.md) |
+| 5 | Managing Incidents | [Open room](managing-incidents/README.md) |
 
 > Klik nama room untuk melihat section dan catatan per bagian.
