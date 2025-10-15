@@ -1,4 +1,4 @@
-# 🧩 Section 2 — Security Principles
+# Section 2 — Security Principles
 
 **🔗 Link:** [TryHackMe — Security Principles](https://tryhackme.com/room/securityprinciples)
 
