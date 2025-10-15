@@ -1,7 +1,5 @@
 # 🧠 Security Engineer — Path Overview
 
-Ini kumpulan room yang saya selesaikan di **Security Engineer** path di TryHackMe.
-
 ## Room list
 | No | Room | Link |
 |----|------|------|
@@ -11,4 +9,4 @@ Ini kumpulan room yang saya selesaikan di **Security Engineer** path di TryHackM
 | 4 | Software Security | [Open room](software-security/README.md) |
 | 5 | Managing Incidents | [Open room](managing-incidents/README.md) |
 
-> Klik nama room untuk melihat section dan catatan per bagian.
+> Choose any room to see an overview of each section.
