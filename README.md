@@ -10,9 +10,9 @@ Hallo! 👋
 
 ---
 
-## 📂 Room List
+## 🔎 Paths
 | Name | Difficulty | Date | Link |  
-| Introduction to Security Engineering |-------------|----------|  |
+| Security Engineer | Beginner | October 16, 2025| https://tryhackme.com/paths |
 
 ---
 
