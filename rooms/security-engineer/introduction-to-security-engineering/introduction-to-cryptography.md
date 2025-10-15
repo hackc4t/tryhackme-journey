@@ -1,14 +1,28 @@
-# Section 1 — Security Engineer Intro
+# 🧩 Section 3 — Introduction to Cryptography
 
-**What this section covers:** pengenalan peran security engineer, tanggung jawab, dan skill dasar.
+**🔗 Link:** [TryHackMe — Introduction to Cryptography](https://tryhackme.com/room/introduction-to-cryptography)
 
-**Key points:**
-- Tanggung jawab: monitoring, incident response, hardening, policy.
-- Skill: networking basics, scripting, linux, IDS/IPS.
+---
 
-**Notes & commands**
-- Command contoh: `nmap -sC -sV <IP>` → untuk recon awal.
-- Screenshot: `screenshots/sec-eng-intro-01.png`
+### 🧠 What this section covers
+> What does a day in the life of a security engineer look like?
 
-**Takeaway**
-Pahami konsep dasar sebelum masuk teknik ofensif.
+---
+
+### 📘 Content
+- Introduction  
+blablablabla
+
+- What is a Security Engineer  
+Penjelasan tentang peran dan tanggung jawab seorang security engineer.
+
+---
+
+### 📝 Answer Needed  
+> No answer needed
+
+---
+
+### 🧾 Notes
+- 💻 **Command contoh:** `nmap -sC -sV <IP>` → untuk recon awal  
+- 🖼️ **Screenshot:** `screenshots/sec-eng-intro-01.png`
