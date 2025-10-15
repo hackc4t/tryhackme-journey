@@ -1,11 +1,11 @@
-# 🧩 Section 4 — Identify and Access Management
+# Section 4 — Identify and Access Management
 
 **🔗 Link:** [TryHackMe — Identify and Access Management](https://tryhackme.com/room/identify-and-access-management)
 
 ---
 
 ### 🧠 What this section covers
-> What does a day in the life of a security engineer look like?
+> Learn about identification, authentication, authorisation, accounting, and identity management.
 
 ---
 
