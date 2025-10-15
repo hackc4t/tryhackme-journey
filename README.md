@@ -16,4 +16,7 @@ Hallo! 👋
 
 ---
 
+## 📝 Notes  
+> Some links require a TryHackMe subscription.
+
 🧠 *This repository is for learning and documentation purposes only.*
