@@ -5,7 +5,7 @@
 ---
 
 ### 🧠 What this section covers
-> What does a day in the life of a security engineer look like?
+> Learn about the security triad and common security models and principles.
 
 ---
 
