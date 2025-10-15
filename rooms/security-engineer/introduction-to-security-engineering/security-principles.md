@@ -1,6 +1,6 @@
 # 🧩 Section 2 — Security Principles
 
-**🔗 Link:** [TryHackMe — Security Engineer Intro](https://tryhackme.com/room/securityprinciples)
+**🔗 Link:** [TryHackMe — Security Principles](https://tryhackme.com/room/securityprinciples)
 
 ---
 
