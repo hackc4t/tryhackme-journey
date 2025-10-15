@@ -1,5 +1,7 @@
 # Section 1 — Security Engineer Intro
 
+**Link:** https://tryhackme.com/room/securityengineerintro
+
 **What this section covers:** pengenalan peran security engineer, tanggung jawab, dan skill dasar.
 
 **Key points:**
