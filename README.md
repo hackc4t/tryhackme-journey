@@ -1,5 +1,7 @@
 # My TryHackMe Journey
 
+---
+
 ## 📘 About
 Greetings! This is a portfolio of my TryHackMe journey.  
 I summarize each room and its sections, and provide answers along with the steps required to capture any flags used to answer the questions.  
