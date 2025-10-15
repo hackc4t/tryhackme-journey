@@ -9,7 +9,7 @@
 ## Sections
 Klik salah satu section di bawah untuk membaca detailnya:
 
-1. [Security Engineer Intro](01-security-engineer-intro.md)  
+1. [Security Engineer Intro](security-engineer-intro.md)  
 2. [Network Basics](02-network-basics.md)  
 3. [CIA Triad](03-cia-triad.md)  
 4. [Common Attacks](04-common-attacks.md)  
