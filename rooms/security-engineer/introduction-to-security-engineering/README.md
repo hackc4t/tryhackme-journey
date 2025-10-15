@@ -6,7 +6,6 @@
 ---
 
 ## Sections
-Klik salah satu section di bawah untuk membaca detailnya:
 
 1. [Security Engineer Intro](security-engineer-intro.md)  
 2. [Security Principles](security-principles.md)  
