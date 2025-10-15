@@ -1,11 +1,11 @@
-# 🧩 Section 3 — Introduction to Cryptography
+# Section 3 — Introduction to Cryptography
 
 **🔗 Link:** [TryHackMe — Introduction to Cryptography](https://tryhackme.com/room/introduction-to-cryptography)
 
 ---
 
 ### 🧠 What this section covers
-> What does a day in the life of a security engineer look like?
+> Learn about encryption algorithms such as AES, Diffie-Hellman key exchange, hashing, PKI, and TLS.
 
 ---
 
