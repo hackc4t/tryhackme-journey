@@ -9,8 +9,8 @@ I summarize each room and its sections, and provide answers needed for each room
 ---
 
 ## 🔎 Paths
-| Name | Difficulty | Date | Link |  
-| Security Engineer | Beginner | October 16, 2025| https://tryhackme.com/paths |
+| Name              | Difficulty | Date            | Link                        |  
+| Security Engineer | Beginner   | October 16, 2025| https://tryhackme.com/paths |
 
 ---
 
