@@ -12,7 +12,7 @@
 ### 📘 Content
 - Introduction
   
-Learning objectives: understanding why security engineers are needed, what qualifications they require, what their typical day looks like, and exploring additional roles and responsibilities they might have.
+  Learning objectives: understanding why security engineers are needed, what qualifications they require, what their typical day looks like, and exploring additional roles and responsibilities they might have.
 
 - What is a Security Engineer?
   
