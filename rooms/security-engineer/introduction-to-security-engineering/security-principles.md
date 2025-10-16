@@ -1,59 +1,63 @@
 # Section 2 — Security Principles
 
-**🔗 Link:** [TryHackMe — Security Engineer Intro](https://tryhackme.com/room/securityprinciples)
+**🔗 Link:** [TryHackMe — Security Principles](https://tryhackme.com/room/securityprinciples)
 
 ---
 
 ### 🧠 What this section covers
-> What does a day in the life of a security engineer look like?
+> Learn about the security triad and common security models and principles.
 
 ---
 
 ### 📘 Content
 - Introduction  
-Learning objectives: understanding why security engineers are needed, what qualifications they require, what their typical day looks like, and exploring additional roles and responsibilities they might have.
+  Perfect security doesn’t exist, so the goal is to strengthen defenses by understanding adversaries and applying suitable controls.  
+  This section will:
+  
+  ‣ Explain the CIA triad (Confidentiality, Integrity, Availability).  
+  ‣ Present its opposite, DAD (Disclosure, Alteration, Destruction/Denial).  
+  ‣ Introduce security models like Bell-LaPadula.  
+  ‣ Explain principles such as Defence-in-Depth, Zero Trust, and Trust but Verify.  
+  ‣ Introduce ISO/IEC 19249.  
+  ‣ Clarify the differences between Vulnerability, Threat, and Risk.
+  
+- CIA  
+  To evaluate security, we use the CIA triad:
 
-- What is a Security Engineer?  
-  Organizations need security to protect their digital assets from cyber attacks, data loss, and ransomware, ensuring their operations and goals continue without disruption.  
+  ‣ Confidentiality ensures only authorized people can access data.  
+  ‣ Integrity ensures data cannot be altered and changes can be detected.  
+  ‣ Availability ensures systems and services are accessible when needed.  
 
-  Security engineers are responsible for securing an organization’s digital assets, minimizing cybersecurity risks, developing secure systems and network solutions, conducting tests to identify weaknesses, and coordinating security protocols across teams.  
+  For example, in online shopping, confidentiality protects credit card details, integrity prevents altered shipping addresses, and availability ensures the website or app remains accessible. Depending on context, one element may matter more, such as a university announcement where integrity is more important than confidentiality.
 
-  The role varies by organization but generally requires 0–2 years of IT, network, or security experience, along with basic knowledge of networks, operating systems, programming, and security concepts like Governance, Risk, and Compliance (GRC).
+  Beyond CIA, two more key aspects are:
+  
+  ‣ Authenticity means verifying that data or documents are genuine and from the claimed source.  
+  ‣ Nonrepudiation means ensuring the sender cannot deny their actions or authorship, which is essential for areas like banking or large transactions.
 
-- Core Responsibilities of a Security Engineer  
-  A security engineer is expected to handle key areas that support an organization’s overall security posture.  
+  Parkerian Hexad expands security to six elements: Availability, Utility, Integrity, Authenticity, Confidentiality, and Possession.
 
-  They manage asset inventory, maintaining an updated list of all digital assets with details like type, IP, network position, and access permissions.  
+  The two remaining elements are:
+  
+  ‣ Utility, focuses on keeping information useful, for example when encrypted data becomes inaccessible without a decryption key.  
+  ‣ Possession, refers to protecting data from unauthorized access, copying, or control, such as when an attacker steals a backup drive or encrypts data with   ransomware.  
 
-  They create and enforce security policies based on security principles, ensure proper implementation, and handle exceptions by minimizing risks.  
+- DAD
+  
 
-  They promote a secure-by-design approach by implementing secure network architecture, hardening systems, and following the Secure Software Development Lifecycle.
+- Fundamental Concepts of Security Models  
+   
 
-  They oversee security assessment and assurance, scheduling regular audits, assessments, and red/purple team exercises, coordinating with external parties, and helping implement findings to continuously strengthen security.
+- Defence-in-Depth
 
-- Continuous Improvment  
-  A security engineer’s work is an ongoing process focused on continuous improvement.  
+  
+- ISO/IEC 19249
 
-  They ensure awareness by conducting regular training sessions to prevent social engineering attacks and promote secure practices across teams.  
 
-  They manage risks by identifying, assessing, and mitigating security risks, advising management on decisions to accept or reduce risks while maintaining operational stability.  
+- Zero Thrust Versus Trust but Verify
+    
 
-  They handle change management by assessing new systems or updates, ensuring they meet security requirements through testing, risk assessments, and compliance with policies.  
-
-  They oversee vulnerability management, monitoring and patching vulnerabilities based on severity to keep systems secure.  
-
-  Finally, they ensure compliance and audits, working with auditors to maintain adherence to standards like PCI-DSS, HIPAA, SOC2, ISO27001, and NIST-800-53, while preserving the organization’s security certifications.  
-
-- Additional Roles and Responsibilities  
-  A security engineer’s role can extend to additional responsibilities depending on the organization.  
-
-  They may handle security tooling, configuring and fine-tuning systems like SIEMs, Firewalls, WAFs, and EDRs, and advising on tool procurement based on organizational needs and technical assessments.  
-
-  They might conduct tabletop exercises to test the organization’s security readiness, guiding team members through response procedures for simulated attack scenarios.  
-
-  They also assist in disaster recovery and crisis management, helping plan for incidents, ensuring business continuity, and supporting compliance with relevant frameworks and internal policies.  
-
-- Walking in Their Shoes
+- Trust Versus Risk
 
   Security engineers must balance security with business needs, considering factors like operations, cost, implementation, and usability. While complete isolation is the most secure state, it prevents achieving business goals. Therefore, a security engineer’s decisions must align security measures with organizational objectives.  
 
