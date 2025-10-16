@@ -133,13 +133,7 @@ The Zero Trust principle treats trust itself as a potential vulnerability. It op
   Threat, a potential danger that can exploit a vulnerability.  
   Risk, the likelihood that a threat will exploit a vulnerability and the resulting impact on the business.  
 
-  For example, a showroom with glass doors has a vulnerability in the glass, a threat that the glass can be broken, and a risk determined by the chance of breakage and its business impact. Similarly, in a hospital, a database with a known exploit represents a vulnerability and threat, and the risk must be assessed to decide on mitigation steps.
-
-  <img src="./screenshots/Screenshot%20(4494).png" alt="Nmap Recon Example" width="500"><br>
-  <img src="./screenshots/Screenshot%20(4495).png" alt="Nmap Recon Example" width="500"><br>
-  <img src="./screenshots/Screenshot%20(4496).png" alt="Nmap Recon Example" width="500"><br>
-  <img src="./screenshots/Screenshot%20(4497).png" alt="Nmap Recon Example" width="500"><br>
-  <img src="./screenshots/Screenshot%20(4498).png" alt="Nmap Recon Example" width="500">
+  For example, a showroom with glass doors has a vulnerability in the glass, a threat that the glass can be broken, and a risk determined by the chance of breakage and its business impact. Similarly, in a hospital, a database with a known exploit represents a vulnerability and threat, and the risk must be assessed to decide on mitigation steps.  
 
 - Conclusion
 This room introduced key security concepts and principles. You learned about the CIA and DAD triads, authenticity, nonrepudiation, vulnerability, threat, and risk. Three security models were discussed along with ISO/IEC 19249. Security principles covered include defence in depth, trust but verify, and zero trust. The Shared Responsibility Model was highlighted for cloud security, showing that security depends on both the cloud provider and the user. For instance, IaaS users control the operating system, while SaaS users do not, making clear role-based responsibilities essential.
@@ -150,14 +144,15 @@ This room introduced key security concepts and principles. You learned about the
 | Task | Question | Answer |
 |------|-----------|--------|
 | **Task&nbsp;1** | — | No answer needed |  
-| **Task 2** | Who ensures that an organization's cyber security risk is minimized at all times? | Security Engineer |
-| **Task 3** | Where are details about an organization's digital assets, such as name, IP address, and owner, stored? | Asset Inventory |
-|  | Sometimes security policies can't be followed because of business needs. What avenue does a security engineer have to fulfil business needs in these cases? | Exceptions |
-|  | What philosophy, if followed, provides the most Return on Investment (ROI)? | Secure by Design |
-| **Task 4** | What is considered the weakest link in an organization's security? | Humans |
-|  | An organization's security evolves with the organization. What helps a security engineer keep the organization secure through these changes? | Change Management |
-| **Task 5** | What is a theoretical exercise carried out to gauge the operational readiness of an organization from a security point of view? | Tabletop Exercise |
-|  | What is the priority of the management in case of a disaster or crisis? | Business Continuity |
-| **Task 6** | Finish the task and capture your own flag | `THM{S#######_3########_R##}` |
+| **Task 2** | Finish the task and capture your own flag | THM{C##_T####} |
+| **Task 3** | The attacker managed to gain access to customer records and dumped them online. What is this attack? | Disclosure |
+|  | A group of attackers were able to locate both the main and the backup power supply systems and switch them off. As a result, the whole network was shut down. What is this attack? | Destruction/Denial |
+| **Task 4** |Finish the task and capture your own flag | THM{S#######_M#####} |
+| **Task 5** | - | No answer needed |
+| **Task 6** | Which principle are you applying when you turn off an insecure server that is not critical to the business? | 2 |
+|  | Your company hired a new sales representative. Which principle are they applying when they tell you to give them access only to the company products and prices? | 1 |
+|  | While reading the code of an ATM, you noticed a huge chunk of code to handle unexpected situations such as network disconnection and power failure. Which principle are they applying? | 5 |
 | **Task 7** | — | No answer needed |
+| **Task 8** | — | No answer needed |
+| **Task 9** | — | No answer needed |
 
