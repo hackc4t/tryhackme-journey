@@ -18,7 +18,7 @@ This journey will be documented gradually, as I need to focus on my course first
 
 ## 💡 Feedback / Corrections
 
-If you find any mistakes, unclear explanations, or have suggestions regarding the content of this repository, feel free to create an **[Issue](https://github.com/username/repo/issues)** here.  
+If you find any mistakes, unclear explanations, or have suggestions regarding the content of this repository, feel free to create an **[Issue](https://github.com/hackc4t/repo/issues)** here.  
 
 Your feedback is highly appreciated and will help improve this documentation!
 
