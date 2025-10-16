@@ -1,4 +1,4 @@
-# Section 2 — Security Principles
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e36d6f2e-59e2-42e7-9431-5a5e410d7e77" /># Section 2 — Security Principles
 
 **🔗 Link:** [TryHackMe — Security Principles](https://tryhackme.com/room/securityprinciples)
 
@@ -40,7 +40,13 @@
   The two remaining elements are:
   
   ‣ Utility, focuses on keeping information useful, for example when encrypted data becomes inaccessible without a decryption key.  
-  ‣ Possession, refers to protecting data from unauthorized access, copying, or control, such as when an attacker steals a backup drive or encrypts data with ransomware.  
+  ‣ Possession, refers to protecting data from unauthorized access, copying, or control, such as when an attacker steals a backup drive or encrypts data with ransomware.
+
+  <img src="./screenshots2/Screenshot%20(4512).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots2/Screenshot%20(4513).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots2/Screenshot%20(4514).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots2/Screenshot%20(4515).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots2/Screenshot%20(4516).png" alt="Nmap Recon Example" width="500"><br>
 
 - DAD
 
@@ -76,6 +82,11 @@
   ‣ Integrity Verification Procedures (IVPs) that validate CDIs.  
 
   Other notable models include Brewer-Nash, Goguen-Meseguer, Sutherland, Graham-Denning, and Harrison-Ruzzo-Ullman.
+
+  <img src="./screenshots2/Screenshot%20(4517).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots2/Screenshot%20(4518).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots2/Screenshot%20(4519).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots2/Screenshot%20(4520).png" alt="Nmap Recon Example" width="500"><br>
 
 - Defence-in-Depth
 
