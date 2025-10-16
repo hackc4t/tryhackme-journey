@@ -40,7 +40,7 @@
   The two remaining elements are:
   
   ‣ Utility, focuses on keeping information useful, for example when encrypted data becomes inaccessible without a decryption key.  
-  ‣ Possession, refers to protecting data from unauthorized access, copying, or control, such as when an attacker steals a backup drive or encrypts data with   ransomware.  
+  ‣ Possession, refers to protecting data from unauthorized access, copying, or control, such as when an attacker steals a backup drive or encrypts data with ransomware.  
 
 - DAD
   
