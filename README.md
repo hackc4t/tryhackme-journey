@@ -20,7 +20,7 @@ This journey will be documented gradually, as I need to focus on my course first
 
 If you find any mistakes, unclear explanations, or have suggestions regarding the content of this repository, feel free to create an **[Issue](https://github.com/hackc4t/tryhackme-journey/issues)** here.  
 
-Your feedback is highly appreciated and will help improve this documentation!
+Your feedback is highly appreciated and will help me improve this documentation!
 
 ---
 
