@@ -10,17 +10,20 @@
 ---
 
 ### 📘 Content
-- Introduction  
+- Introduction
+  
 Learning objectives: understanding why security engineers are needed, what qualifications they require, what their typical day looks like, and exploring additional roles and responsibilities they might have.
 
-- What is a Security Engineer?  
+- What is a Security Engineer?
+  
   Organizations need security to protect their digital assets from cyber attacks, data loss, and ransomware, ensuring their operations and goals continue without disruption.  
 
   Security engineers are responsible for securing an organization’s digital assets, minimizing cybersecurity risks, developing secure systems and network solutions, conducting tests to identify weaknesses, and coordinating security protocols across teams.  
 
   The role varies by organization but generally requires 0–2 years of IT, network, or security experience, along with basic knowledge of networks, operating systems, programming, and security concepts like Governance, Risk, and Compliance (GRC).
 
-- Core Responsibilities of a Security Engineer  
+- Core Responsibilities of a Security Engineer
+  
   A security engineer is expected to handle key areas that support an organization’s overall security posture.  
 
   They manage asset inventory, maintaining an updated list of all digital assets with details like type, IP, network position, and access permissions.  
@@ -31,7 +34,8 @@ Learning objectives: understanding why security engineers are needed, what quali
 
   They oversee security assessment and assurance, scheduling regular audits, assessments, and red/purple team exercises, coordinating with external parties, and helping implement findings to continuously strengthen security.
 
-- Continuous Improvment  
+- Continuous Improvment
+  
   A security engineer’s work is an ongoing process focused on continuous improvement.  
 
   They ensure awareness by conducting regular training sessions to prevent social engineering attacks and promote secure practices across teams.  
@@ -44,7 +48,8 @@ Learning objectives: understanding why security engineers are needed, what quali
 
   Finally, they ensure compliance and audits, working with auditors to maintain adherence to standards like PCI-DSS, HIPAA, SOC2, ISO27001, and NIST-800-53, while preserving the organization’s security certifications.  
 
-- Additional Roles and Responsibilities  
+- Additional Roles and Responsibilities
+  
   A security engineer’s role can extend to additional responsibilities depending on the organization.  
 
   They may handle security tooling, configuring and fine-tuning systems like SIEMs, Firewalls, WAFs, and EDRs, and advising on tool procurement based on organizational needs and technical assessments.  
