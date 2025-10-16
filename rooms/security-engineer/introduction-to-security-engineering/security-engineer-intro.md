@@ -81,11 +81,6 @@ Learning objectives: understanding why security engineers are needed, what quali
 |  | An organization's security evolves with the organization. What helps a security engineer keep the organization secure through these changes? | Change Management |
 | **Task 5** | What is a theoretical exercise carried out to gauge the operational readiness of an organization from a security point of view? | Tabletop Exercise |
 |  | What is the priority of the management in case of a disaster or crisis? | Business Continuity |
-| **Task 6** | Flag | `THM{S3CUR1TY_3NG1N33R5_R0CK}` |
+| **Task 6** | Finish the task and capture your own flag | `THM{S#######_3########_R##}` |
 | **Task 7** | — | No answer needed |
 
----
-
-### 🧾 Notes
-- 💻 **Command contoh:** `nmap -sC -sV <IP>` → untuk recon awal  
-- 🖼️ **Screenshot:** `screenshots/sec-eng-intro-01.png`
