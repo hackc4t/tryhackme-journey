@@ -62,11 +62,11 @@
 
   Security engineers must balance security with business needs, considering factors like operations, cost, implementation, and usability. While complete isolation is the most secure state, it prevents achieving business goals. Therefore, a security engineer’s decisions must align security measures with organizational objectives.  
 
-  <img src="./screenshots1/Screenshot%20(4494).png" alt="Nmap Recon Example" width="500"><br>
-  <img src="./screenshots1/Screenshot%20(4495).png" alt="Nmap Recon Example" width="500"><br>
-  <img src="./screenshots1/Screenshot%20(4496).png" alt="Nmap Recon Example" width="500"><br>
-  <img src="./screenshots1/Screenshot%20(4497).png" alt="Nmap Recon Example" width="500"><br>
-  <img src="./screenshots1/Screenshot%20(4498).png" alt="Nmap Recon Example" width="500">
+  <img src="./screenshots/Screenshot%20(4494).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots/Screenshot%20(4495).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots/Screenshot%20(4496).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots/Screenshot%20(4497).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots/Screenshot%20(4498).png" alt="Nmap Recon Example" width="500">
 
 - Conclusion
 
