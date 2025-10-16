@@ -64,7 +64,8 @@ Learning objectives: understanding why security engineers are needed, what quali
   <img src="./screenshots/Screenshot%20(4498).png" alt="Nmap Recon Example" width="400">
 
 - Conclusion
-  
+
+  A security engineer is responsible for an organization’s cybersecurity, ensuring systems and infrastructure are built securely, maintaining and improving the security posture over time, and supporting other teams to achieve a collectively secure environment.
 ---
 
 ### 📝 Answer Needed  
@@ -80,6 +81,7 @@ Learning objectives: understanding why security engineers are needed, what quali
 
 > Task 6: THM{S3CUR1TY_3NG1N33R5_R0CK} 
 
+> Task7: No answer needed
 ---
 
 ### 🧾 Notes
