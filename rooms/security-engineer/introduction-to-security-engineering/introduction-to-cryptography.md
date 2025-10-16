@@ -1,6 +1,6 @@
 # Section 3 — Introduction to Cryptography
 
-**🔗 Link:** [TryHackMe — Introduction to Cryptography](https://tryhackme.com/room/introduction-to-cryptography)
+**🔗 Link:** [TryHackMe — Introduction to Cryptography](https://tryhackme.com/room/cryptographyintro)
 
 ---
 
