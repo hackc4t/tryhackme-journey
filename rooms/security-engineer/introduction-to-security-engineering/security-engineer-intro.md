@@ -69,19 +69,21 @@ Learning objectives: understanding why security engineers are needed, what quali
 ---
 
 ### 📝 Answer Needed  
-> Task 1: No answer needed
 
-> Task 2: Security Engineer
+| Task | Question | Answer |
+|------|-----------|--------|
+| **Task&nbsp;1** | — | No answer needed |  
+| **Task 2** | Who ensures that an organization's cyber security risk is minimized at all times? | Security Engineer |
+| **Task 3** | Where are details about an organization's digital assets, such as name, IP address, and owner, stored? | Asset Inventory |
+|  | Sometimes security policies can't be followed because of business needs. What avenue does a security engineer have to fulfil business needs in these cases? | Exceptions |
+|  | What philosophy, if followed, provides the most Return on Investment (ROI)? | Secure by Design |
+| **Task 4** | What is considered the weakest link in an organization's security? | Humans |
+|  | An organization's security evolves with the organization. What helps a security engineer keep the organization secure through these changes? | Change Management |
+| **Task 5** | What is a theoretical exercise carried out to gauge the operational readiness of an organization from a security point of view? | Tabletop Exercise |
+|  | What is the priority of the management in case of a disaster or crisis? | Business Continuity |
+| **Task 6** | Flag | `THM{S3CUR1TY_3NG1N33R5_R0CK}` |
+| **Task 7** | — | No answer needed |
 
-> Task 3: Asset Inventory | Exceptions | Secure by Design
-
-> Task 4: Humans | Change Management
-
-> Task 5: Tabletop Exercise | Business Continuity
-
-> Task 6: THM{S3CUR1TY_3NG1N33R5_R0CK} 
-
-> Task7: No answer needed
 ---
 
 ### 🧾 Notes
