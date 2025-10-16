@@ -4,7 +4,8 @@
 
 ## 📘 About
 Greetings! This is a portfolio of my TryHackMe journey.  
-I summarize each room and its sections, also provide answers needed for each room along with the steps required to capture any flags used to answer the questions.  
+I summarize each room and its sections, also provide answers needed for each room along with the steps required to capture any flags used to answer the questions.
+This journey will be documented gradually, as I need to focus on my course first, so it may take some time to complete. Thank you!
 
 ---
 
@@ -12,6 +13,14 @@ I summarize each room and its sections, also provide answers needed for each roo
 | Name              | Difficulty | Date              | Link                        |
 |-------------------|------------|-------------------|-----------------------------|
 | Security Engineer | Beginner   | October 16, 2025  | https://tryhackme.com/paths |
+
+---
+
+## 💡 Feedback / Corrections
+
+If you find any mistakes, unclear explanations, or have suggestions regarding the content of this repository, feel free to create an **[Issue](https://github.com/username/repo/issues)** here.  
+
+Your feedback is highly appreciated and will help improve this documentation!
 
 ---
 
