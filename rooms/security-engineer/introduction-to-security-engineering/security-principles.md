@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e36d6f2e-59e2-42e7-9431-5a5e410d7e77" /># Section 2 — Security Principles
+# Section 2 — Security Principles
 
 **🔗 Link:** [TryHackMe — Security Principles](https://tryhackme.com/room/securityprinciples)
 
