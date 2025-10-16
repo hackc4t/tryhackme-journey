@@ -57,8 +57,14 @@ Learning objectives: understanding why security engineers are needed, what quali
 
   Security engineers must balance security with business needs, considering factors like operations, cost, implementation, and usability. While complete isolation is the most secure state, it prevents achieving business goals. Therefore, a security engineer’s decisions must align security measures with organizational objectives.  
 
-  <img src="./screenshots/Screenshot%20(4494).png" alt="Nmap Recon Example" width="400">
+  <img src="./screenshots/Screenshot%20(4494).png" alt="Nmap Recon Example" width="400"><br>
+  <img src="./screenshots/Screenshot%20(4495).png" alt="Nmap Recon Example" width="400"><br>
+  <img src="./screenshots/Screenshot%20(4496).png" alt="Nmap Recon Example" width="400"><br>
+  <img src="./screenshots/Screenshot%20(4497).png" alt="Nmap Recon Example" width="500"><br>
+  <img src="./screenshots/Screenshot%20(4498).png" alt="Nmap Recon Example" width="400">
 
+- Conclusion
+  
 ---
 
 ### 📝 Answer Needed  
