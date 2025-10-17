@@ -1,6 +1,6 @@
 # Section 4 — Identify and Access Management
 
-**🔗 Link:** [TryHackMe — Identify and Access Management](https://tryhackme.com/room/iaaaidm
+**🔗 Link:** [TryHackMe — Identify and Access Management](https://tryhackme.com/room/iaaaidm)
 
 ---
 
