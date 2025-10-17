@@ -4,7 +4,7 @@
 
 ## 📘 About
 Greetings! This is a portfolio of my TryHackMe journey.  
-This repository contains TryHackMe materials and provides the answers for each section, along with the steps required to capture any flags used to solve the challenges. This journey will be documented progressively according to my study schedule, so it may take some time to complete. Thank you for your patience!
+This repository contains TryHackMe materials and provides answers for each section, along with the steps required to capture any flags used to complete the tasks. This journey will be documented progressively according to my study schedule, so it may take some time to complete. Thank you!
 
 ---
 
