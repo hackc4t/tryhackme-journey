@@ -11,13 +11,12 @@
 
 ### 📘 Content
 - Introduction  
+N/A
 
-
-- What is a Security Engineer  
 
 
 ---
 
 ### 📝 Answer Needed  
-> No answer needed
+> N/A
 
