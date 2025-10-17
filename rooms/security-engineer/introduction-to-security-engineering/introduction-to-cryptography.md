@@ -222,8 +222,8 @@ A symmetric encryption algorithm uses the same key for encryption and decryption
 
   1. Choose two random prime numbers, p and q. Calculate N = p × q.
   2. Choose two integers e and d such that e × d = 1 mod ϕ(N), where ϕ(N) = N − p − q + 1. This step will let us generate the public key (N,e) and the private key (N,d).
-  3. The sender can encrypt a value x by calculating y = xe mod N. (Modulus)
-  4. The recipient can decrypt y by calculating x = yd mod N. Note that yd = xed = xkϕ(N) + 1 = (xϕ(N))k × x = x. This step explains why we put a restriction on the choice of e and d.
+  3. The sender can encrypt a value x by calculating y = x^e mod N. (Modulus)
+  4. The recipient can decrypt y by calculating x = y^d mod N. Note that y^d = x^ed = x^kϕ(N) + 1 = (x^ϕ(N))k × x = x. This step explains why we put a restriction on the choice of e and d.
   
   Don’t worry if the above mathematical equations looked too complicated; you don’t need mathematics to be able to use RSA, as it is readily available via programs and programming libraries.
 
@@ -233,14 +233,12 @@ A symmetric encryption algorithm uses the same key for encryption and decryption
 
   1. Bob chooses two prime numbers: p = 157 and q = 199. He calculates N = 31243.
   2. With ϕ(N) = N − p − q + 1 = 31243 − 157 − 199 + 1 = 30888, Bob selects e = 163 and d = 379 where e × d = 163 × 379 = 61777 and 61777 mod 30888 = 1. The public key is (31243,163) and the private key is (31243,379).
-  3. Let’s say that the value to encrypt is x = 13, then Alice would calculate and send y = xe mod N = 13163 mod 31243 = 16341.
-  4. Bob will decrypt the received value by calculating x = yd mod N = 16341379 mod 31243 = 13.
-The previous example was to understand the mathematics behind it better. To see real values for p and q, let’s create a real keypair using a tool such as openssl.
+  3. Let’s say that the value to encrypt is x = 13, then Alice would calculate and send y = x^e mod N = 13^163 mod 31243 = 16341.
+  4. Bob will decrypt the received value by calculating x = y^d mod N = 16341^379 mod 31243 = 13.
 
-user@TryHackMe$ openssl genrsa -out private-key.pem 2048
+  The previous example was to understand the mathematics behind it better. To see real values for p and q, let’s create a real keypair using a tool such as openssl.
 
-user@TryHackMe$ openssl rsa -in private-key.pem -pubout -out public-key.pem
-writing RSA key
+
 
 ```bash
 user@TryHackMe$ cat public-key.pem
@@ -331,13 +329,13 @@ prime2:
 
   Alice and Bob can communicate over an insecure channel. By insecure, we mean that there are eavesdroppers who can read the messages exchanged on this channel. How can Alice and Bob agree on a secret key in such a setting? One way would be to use the Diffie-Hellman key exchange.
 
-  Diffie-Hellman is an asymmetric encryption algorithm. It allows the exchange of a secret over a public channel. We will skip the modular arithmetic background and provide a simple numeric example. We will need two mathematical operations: power and modulus. xp, i.e., x raised to the power p, is x multiplied by itself p times. Furthermore, x mod m, i.e., x modulus m, is the remainder of the division of x by m.
+  Diffie-Hellman is an asymmetric encryption algorithm. It allows the exchange of a secret over a public channel. We will skip the modular arithmetic background and provide a simple numeric example. We will need two mathematical operations: power and modulus. x^p, i.e., x raised to the power p, is x multiplied by itself p times. Furthermore, x mod m, i.e., x modulus m, is the remainder of the division of x by m.
 
   1. Alice and Bob agree on q and g. For this to work, q should be a prime number, and g is a number smaller than q that satisfies certain conditions. (In modular arithmetic, g is a generator.) In this example, we take q = 29 and g = 3.
-  2. Alice chooses a random number a smaller than q. She calculates A = (ga) mod q. The number a must be kept a secret; however, A is sent to Bob. Let’s say that Alice picks the number a = 13 and calculates A = 313%29 = 19 and sends it to Bob.
-  3. Bob picks a random number b smaller than q. He calculates B = (gb) mod q. Bob must keep b a secret; however, he sends B to Alice. Let’s consider the case where Bob chooses the number b = 15 and calculates B = 315%29 = 26. He proceeds to send it to Alice.
-  4. Alice receives B and calculates key = Ba mod q. Numeric example key = 2613 mod 29 = 10.
-  5. Bob receives A and calculates key = Ab mod q. Numeric example key = 1915 mod 29 = 10.
+  2. Alice chooses a random number a smaller than q. She calculates A = (g^a) mod q. The number a must be kept a secret; however, A is sent to Bob. Let’s say that Alice picks the number a = 13 and calculates A = 3^13%29 = 19 and sends it to Bob.
+  3. Bob picks a random number b smaller than q. He calculates B = (g^b) mod q. Bob must keep b a secret; however, he sends B to Alice. Let’s consider the case where Bob chooses the number b = 15 and calculates B = 3^15%29 = 26. He proceeds to send it to Alice.
+  4. Alice receives B and calculates key = B^a mod q. Numeric example key = 26^13 mod 29 = 10.
+  5. Bob receives A and calculates key = A^b mod q. Numeric example key = 19^15 mod 29 = 10.
 
   We can see that Alice and Bob reached the same key.
 
@@ -473,10 +471,10 @@ user@TryHackMe$ sha256hmac message.txt --key 1234
   Consider the figure below. It is an attack against the key exchange explained in the Diffie-Hellman Key Exchange task. The steps are as follows:
 
   1. Alice and Bob agree on q and g. Anyone listening on the communication channel can read these two values, including the attacker, Mallory.
-  2. As she would normally do, Alice chooses a random variable a, calculates A ( A = (ga) mod q) and sends A to Bob. Mallory has been waiting for this step, and she has selected a random variable m and calculated the respective M. As soon as Mallory receives A, she sends M to Bob, pretending she is Alice.
+  2. As she would normally do, Alice chooses a random variable a, calculates A ( A = (g^a) mod q) and sends A to Bob. Mallory has been waiting for this step, and she has selected a random variable m and calculated the respective M. As soon as Mallory receives A, she sends M to Bob, pretending she is Alice.
   3. Bob receives M thinking that Alice sent it. Bob has already picked a random variable b and calculated the respective B; he sends B to Alice. Similarly, Mallory intercepts the message, reads B and sends M to Alice instead.
-  4. Alice receives M and calculates key = Ma mod q.
-  5. Bob receives M and calculates key = Mb mod q.
+  4. Alice receives M and calculates key = M^a mod q.
+  5. Bob receives M and calculates key = M^b mod q.
   
   Alice and Bob continue to communicate, thinking that they are communicating directly, unaware that they are communicating with Mallory, who can read and modify the messages before sending them to the intended recipient.
 
