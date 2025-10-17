@@ -14,7 +14,9 @@
 
   This room introduced basic cryptography concepts, including symmetric encryption (AES), asymmetric encryption (RSA), Diffie-Hellman Key Exchange, hashing, and PKI.
 
-  Simple ciphers were explained:
+  One of the simplest ciphers is the Caesar cipher, used more than 2000 years ago. Caesar Cipher shifts the letter by a fixed number of places to the left or to the right. Consider the case of shifting by 3 to the right to encrypt, as shown in the figure below.
+  
+  <img src="./screenshots3/1.png" alt="Nmap Recon Example" width="500">
 
   Caesar Cipher: A substitution cipher shifting letters by a fixed key between 1–25. Example: encrypting “TRY HACK ME” with key 3 gives “WUB KDFN PH.” It can be broken using brute force by trying all possible keys.
 
