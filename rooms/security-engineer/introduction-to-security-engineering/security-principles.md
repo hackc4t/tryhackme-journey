@@ -20,6 +20,12 @@
   ‣ Explain principles such as Defence-in-Depth, Zero Trust, and Trust but Verify.  
   ‣ Introduce ISO/IEC 19249.  
   ‣ Clarify the differences between Vulnerability, Threat, and Risk.
+
+  Answer the question below
+
+  | Question | Answer |
+  |-----------|--------|
+  | — | No answer needed |
   
 - CIA  
   To evaluate security, we use the CIA triad:
@@ -48,6 +54,12 @@
   <img src="./screenshots2/Screenshot%20(4515).png" alt="Nmap Recon Example" width="500"><br>
   <img src="./screenshots2/Screenshot%20(4516).png" alt="Nmap Recon Example" width="500"><br>
 
+  Answer the question below
+
+  | Question | Answer |
+  |-----------|--------|
+  | Finish the task and capture your own flag | THM{C##_T####} |
+
 - DAD
 
   A system’s security can be compromised through disclosure, alteration, or destruction of data.
@@ -57,6 +69,13 @@
   Destruction or denial is the opposite of availability, as seen when a hospital’s digital systems become inaccessible, halting operations.
 
   These three form the DAD triad, the opposite of the CIA triad. Protecting against disclosure, alteration, and destruction is essential to maintaining confidentiality, integrity, and availability. However, focusing too much on one can weaken the others, so achieving balance among the three is key to good security.
+
+  Answer the question below
+
+  | Question | Answer |
+  |-----------|--------|
+  | The attacker managed to gain access to customer records and dumped them online. What is this attack? | Disclosure |
+  | A group of attackers were able to locate both the main and the backup power supply systems and switch them off. As a result, the whole network was shut down. What is this attack? | Destruction/Denial |
 
 - Fundamental Concepts of Security Models
 
@@ -88,9 +107,21 @@
   <img src="./screenshots2/Screenshot%20(4519).png" alt="Nmap Recon Example" width="500"><br>
   <img src="./screenshots2/Screenshot%20(4520).png" alt="Nmap Recon Example" width="500"><br>
 
+  Answer the question below
+
+  | Question | Answer |
+  |-----------|--------|
+  |Finish the task and capture your own flag | THM{S#######_M#####} |
+
 - Defence-in-Depth
 
   Defence-in-Depth, also known as Multi-Level Security, involves building multiple layers of protection. For example, securing valuables might include locking the drawer, the room, the apartment door, and the building gate, plus adding security cameras. Each layer adds a barrier that blocks or slows down potential attackers, strengthening overall security.
+
+  Answer the question below
+
+  | Question | Answer |
+  |-----------|--------|
+  | - | No answer needed |
   
 - ISO/IEC 19249
 
@@ -112,6 +143,14 @@
   
   Together, these principles aim to ensure confidentiality, integrity, and availability while promoting resilience and secure system design.
 
+  Answer the question below
+
+  | Question | Answer |
+  |-----------|--------|
+  | Which principle are you applying when you turn off an insecure server that is not critical to the business? | 2 |
+  | Your company hired a new sales representative. Which principle are they applying when they tell you to give them access only to the company products and prices? | 1 |
+  | While reading the code of an ATM, you noticed a huge chunk of code to handle unexpected situations such as network disconnection and power failure. Which principle are they applying? | 5 |
+
 - Zero Thrust Versus Trust but Verify
 
   Trust plays a vital role in both personal and business contexts, but in cybersecurity, it must be managed carefully. Two key security principles that help guide how trust should be handled are Trust but Verify and Zero Trust.
@@ -126,6 +165,12 @@ The Zero Trust principle treats trust itself as a potential vulnerability. It op
 
   While applying Zero Trust extensively may affect business operations, implementing it as much as feasible can significantly limit the impact of potential breaches and improve overall security posture.
 
+  Answer the question below
+
+  | Question | Answer |
+  |-----------|--------|
+  | — | No answer needed |
+
 - Trust Versus Risk
   In information security, three key terms are:
 
@@ -133,26 +178,16 @@ The Zero Trust principle treats trust itself as a potential vulnerability. It op
   Threat, a potential danger that can exploit a vulnerability.  
   Risk, the likelihood that a threat will exploit a vulnerability and the resulting impact on the business.  
 
-  For example, a showroom with glass doors has a vulnerability in the glass, a threat that the glass can be broken, and a risk determined by the chance of breakage and its business impact. Similarly, in a hospital, a database with a known exploit represents a vulnerability and threat, and the risk must be assessed to decide on mitigation steps.  
+  For example, a showroom with glass doors has a vulnerability in the glass, a threat that the glass can be broken, and a risk determined by the chance of breakage and its business impact. Similarly, in a hospital, a database with a known exploit represents a vulnerability and threat, and the risk must be assessed to decide on mitigation steps.
+
+  Answer the question below
+
+  | Question | Answer |
+  |-----------|--------|
+  | — | No answer needed |
 
 - Conclusion
 This room introduced key security concepts and principles. You learned about the CIA and DAD triads, authenticity, nonrepudiation, vulnerability, threat, and risk. Three security models were discussed along with ISO/IEC 19249. Security principles covered include defence in depth, trust but verify, and zero trust. The Shared Responsibility Model was highlighted for cloud security, showing that security depends on both the cloud provider and the user. For instance, IaaS users control the operating system, while SaaS users do not, making clear role-based responsibilities essential.
 ---
 
-### 📝 Answer Needed  
-
-| Task | Question | Answer |
-|------|-----------|--------|
-| **Task&nbsp;1** | — | No answer needed |  
-| **Task 2** | Finish the task and capture your own flag | THM{C##_T####} |
-| **Task 3** | The attacker managed to gain access to customer records and dumped them online. What is this attack? | Disclosure |
-|  | A group of attackers were able to locate both the main and the backup power supply systems and switch them off. As a result, the whole network was shut down. What is this attack? | Destruction/Denial |
-| **Task 4** |Finish the task and capture your own flag | THM{S#######_M#####} |
-| **Task 5** | - | No answer needed |
-| **Task 6** | Which principle are you applying when you turn off an insecure server that is not critical to the business? | 2 |
-|  | Your company hired a new sales representative. Which principle are they applying when they tell you to give them access only to the company products and prices? | 1 |
-|  | While reading the code of an ATM, you noticed a huge chunk of code to handle unexpected situations such as network disconnection and power failure. Which principle are they applying? | 5 |
-| **Task 7** | — | No answer needed |
-| **Task 8** | — | No answer needed |
-| **Task 9** | — | No answer needed |
 
