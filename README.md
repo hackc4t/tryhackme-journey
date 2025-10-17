@@ -4,8 +4,7 @@
 
 ## 📘 About
 Greetings! This is a portfolio of my TryHackMe journey.  
-I summarize each room and its sections, also provide answers needed for each room along with the steps required to capture any flags used to answer the questions.
-This journey will be documented gradually, as I need to focus on my course first, so it may take some time to complete. Thank you!
+This repository contains TryHackMe materials and provides the answers for each section, along with the steps required to capture any flags used to solve the challenges. This journey will be documented progressively according to my study schedule, so it may take some time to complete. Thank you for your patience!
 
 ---
 
