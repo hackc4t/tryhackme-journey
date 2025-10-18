@@ -168,7 +168,15 @@ A symmetric encryption algorithm uses the same key for encryption and decryption
 
   Consequently, the decryption command becomes:
 
-  openssl aes-256-cbc -pbkdf2 -iter 10000 -d -in encrypted_message -out original_message.txt
+  openssl aes-256-cbc -pbkdf2 -iter 10000 -d -in encrypted_message -out original_message.txt  
+
+  Answer the questions below
+  
+  | Question | Answer |
+  |-----------|--------|
+  | Decrypt the file quote01 encrypted (using AES256) with the key s!kR3T55 using gpg. What is the third word in the file? | <img src="./screenshots3/2.png" alt="Nmap Recon Example" width="2000"> |
+  | Decrypt the file quote02 encrypted (using AES256-CBC) with the key s!kR3T55 using openssl. What is the third word in the file? | <img src="./screenshots3/3.png" alt="Nmap Recon Example" width="2000"> |
+  | Decrypt the file quote03 encrypted (using CAMELLIA256) with the key s!kR3T55 using gpg. What is the third word in the file? | <img src="./screenshots3/4.png" alt="Nmap Recon Example" width="2000"> |
 
     
 - ### Asymmetric Encryption
@@ -324,6 +332,15 @@ prime2:
   - If we already have the recipient’s public key, we can encrypt it with the command openssl pkeyutl -encrypt -in plaintext.txt -out ciphertext -inkey public-key.pem -pubin
 
   The recipient can decrypt it using the command openssl pkeyutl -decrypt -in ciphertext -inkey private-key.pem -out decrypted.txt
+
+  Answer the questions below
+  
+  | Question | Answer |
+  |-----------|--------|
+  | Bob has received the file ciphertext_message sent to him from Alice. You can find the key you need in the same folder. What is the first word of the original plaintext? | <img src="./screenshots3/5.png" alt="Nmap Recon Example" width="2000"> |
+  | Take a look at Bob’s private RSA key. What is the last byte of p? | <img src="./screenshots3/6.png" alt="Nmap Recon Example" width="2000"> |
+  |  | <img src="./screenshots3/7.png" alt="Nmap Recon Example" width="2000"> |
+  | Take a look at Bob’s private RSA key. What is the last byte of q? | <img src="./screenshots3/8.png" alt="Nmap Recon Example" width="2000"> |
     
 - ### Diffie-Hellman Key Exchange
 
@@ -378,6 +395,11 @@ $ openssl dhparam -in dhparams.pem -text -noout
 ```
 
   Diffie-Hellman key exchange algorithm allows two parties to agree on a secret over an insecure channel. However, the discussed key exchange is prone to a Man-in-the-Middle (MitM) attack; an attacker might reply to Alice pretending to be Bob and reply to Bob pretending to be Alice.
+
+  | Question | Answer |
+  |-----------|--------|
+  | A set of Diffie-Hellman parameters can be found in the file dhparam.pem. What is the size of the prime number in bits? | <img src="./screenshots3/9.png" alt="Nmap Recon Example" width="2000"> |
+  | What is the prime number’s last byte (least significant byte)? | The answer can be found in the photo above. |
 
 - ### Hashing
 
@@ -464,6 +486,13 @@ user@TryHackMe$ sha256hmac message.txt --key 1234
 4b6a2783631180fca6128592e3d17fb5bff6b0e563ad8f1c6afc1050869e440f  message.txt
 ```
 
+  | Question | Answer |
+  |-----------|--------|
+  | What is the SHA256 checksum of the file order.json? | <img src="./screenshots3/10.png" alt="Nmap Recon Example" width="2000"> |
+  | Open the file order.json and change the amount from 1000 to 9000. What is the new SHA256 checksum? | <img src="./screenshots3/11.png" alt="Nmap Recon Example" width="2000"> |
+  |  | <img src="./screenshots3/12.png" alt="Nmap Recon Example" width="2000"> |
+  | Using SHA256 and the key 3RfDFz82, what is the HMAC of order.txt? | <img src="./screenshots3/12.png" alt="Nmap Recon Example" width="2000"> |
+
 - ### PKI and SSL/TLS
 
   Using a key exchange such as the Diffie-Hellman key exchange allows us to agree on a secret key under the eyes and ears of eavesdroppers. This key can be used with a symmetric encryption algorithm to ensure confidential communication. However, the key exchange we described earlier is not immune to Man-in-the-Middle (MITM) attack. The reason is that Alice has no way of ensuring that she is communicating with Bob, and Bob has no way of ensuring that he is communicating with Alice when exchanging the secret key.
@@ -542,6 +571,11 @@ Locality Name (eg, city) [Default City]:London
   To answer the questions below, you need to inspect the certificate file cert.pem in the task06 directory. You can use the following command to view your certificate:
 
   openssl x509 -in cert.pem -text
+
+  | Question | Answer |
+  |-----------|--------|
+  | What is the size of the public key in bits? | <img src="./screenshots3/13.png" alt="Nmap Recon Example" width="2000"> |
+  | Till which year is this certificate valid? | <img src="./screenshots3/14.png" alt="Nmap Recon Example" width="2000"> |
   
 - ### Authenticating with Passwords
 
@@ -579,6 +613,10 @@ Locality Name (eg, city) [Default City]:London
   Another improvement we can make before saving the password is to use a key derivation function such as PBKDF2 (Password-Based Key Derivation Function 2). PBKDF2 takes the password and the salt and submits it through a certain number of iterations, usually hundreds of thousands.
 
   We recommend you check the Password Storage Cheat Sheet if you like to learn about other techniques related to password storage.
+
+  | Question | Answer |
+  |-----------|--------|
+  | You were auditing a system when you discovered that the MD5 hash of the admin password is 3fc0a7acf087f549ac2b266baf94b8b1. What is the original password? | <img src="./screenshots3/15.png" alt="Nmap Recon Example" width="2000"> |
 
 - ### Cryptography and Data-Example
 
