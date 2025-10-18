@@ -62,7 +62,7 @@
   
   | Question | Answer |
   |-----------|--------|
-  | You have received the following encrypted message: “Xjnvw lc sluxjmw jsqm wjpmcqbg jg wqcxqmnvw; xjzjmmjd lc wjpm sluxjmw jsqm bqccqm zqy.” Zlwvzjxj Zpcvcol You can guess that it is a quote. Who said it? | <img src="./screenshots3/6.png" alt="Nmap Recon Example" width="2000"> | 
+  | You have received the following encrypted message: “Xjnvw lc sluxjmw jsqm wjpmcqbg jg wqcxqmnvw; xjzjmmjd lc wjpm sluxjmw jsqm bqccqm zqy.” Zlwvzjxj Zpcvcol You can guess that it is a quote. Who said it? | <img src="./screenshots3/1.png" alt="Nmap Recon Example" width="2000"> | 
 
 - ### Symmetric Encryption
 
