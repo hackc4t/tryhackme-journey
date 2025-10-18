@@ -491,7 +491,7 @@ user@TryHackMe$ sha256hmac message.txt --key 1234
   | What is the SHA256 checksum of the file order.json? | <img src="./screenshots3/10.png" alt="Nmap Recon Example" width="2000"> |
   | Open the file order.json and change the amount from 1000 to 9000. What is the new SHA256 checksum? | <img src="./screenshots3/11.png" alt="Nmap Recon Example" width="2000"> |
   |  | <img src="./screenshots3/12.png" alt="Nmap Recon Example" width="2000"> |
-  | Using SHA256 and the key 3RfDFz82, what is the HMAC of order.txt? | <img src="./screenshots3/12.png" alt="Nmap Recon Example" width="2000"> |
+  | Using SHA256 and the key 3RfDFz82, what is the HMAC of order.txt? | <img src="./screenshots3/13.png" alt="Nmap Recon Example" width="2000"> |
 
 - ### PKI and SSL/TLS
 
@@ -574,8 +574,8 @@ Locality Name (eg, city) [Default City]:London
 
   | Question | Answer |
   |-----------|--------|
-  | What is the size of the public key in bits? | <img src="./screenshots3/13.png" alt="Nmap Recon Example" width="2000"> |
-  | Till which year is this certificate valid? | <img src="./screenshots3/14.png" alt="Nmap Recon Example" width="2000"> |
+  | What is the size of the public key in bits? | <img src="./screenshots3/14.png" alt="Nmap Recon Example" width="2000"> |
+  | Till which year is this certificate valid? | The answer can be found in the photo above. |
   
 - ### Authenticating with Passwords
 
