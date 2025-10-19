@@ -339,18 +339,13 @@ Role-Based Access Control (RBAC) uses a very intuitive approach. Each user has o
   
   | Question | Answer |
   |-----------|--------|
-  | — | {T##_A#####_C######} |
+  | Finish the task and capture your own flag	 | {T##_A#####_C######} |
 
 - ### Conclusion
 
+  In this room, we covered the different processes, from identification to logging. We also discussed access control models, SSO, and standards related to authentication and authorisation.
   
   | Question | Answer |
   |-----------|--------|
   | — | No answer needed |
 
-
-
----
-
-### 📝 Answer Needed  
-> N/A
