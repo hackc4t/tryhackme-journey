@@ -42,6 +42,7 @@
   - Access Control Models
   - Single Sign-On  
 
+  Answer the questions below
   
   | Question | Answer |
   |-----------|--------|
@@ -61,6 +62,8 @@
   4. Accountability tracks user activity to ensure they are responsible for their actions. After a user is granted access to a system, it is essential to have mechanisms that hold everyone accountable for their actions. This process is achieved by logging all user activity and storing it in a centralised location. In the event of a security incident, this information can be used to identify the source of the problem and take appropriate action.
 IAAA helps prevent unauthorised access, data breaches, and other security incidents. By implementing these best practices, organisations can protect their sensitive information and resources from internal and external threats.
 
+  Answer the questions below
+  
   | Question | Answer |
   |-----------|--------|
   | You are granted access to read and send an email. What is the name of this process? | Authorisation |
@@ -86,6 +89,8 @@ IAAA helps prevent unauthorised access, data breaches, and other security incide
 
   Without proper authentication, severe damage can be incurred; consider the case of someone claiming a fake identity when taking a loan from the bank. In the IT world, without authentication, anyone could access your email if they knew your email address. Most systems cannot function properly without proper authentication; systems are not limited to computer systems and include banking systems, hotel reservation systems, and flight systems, among many others. In the next task, we cover authentication in more detail.  
 
+  Answer the questions below
+  
   | Question | Answer |
   |-----------|--------|
   | Which of the following cannot be used for identification? 1. Email address 2. Mobile number with international code 3. Year of birth 4. Passport number | 3 |
@@ -150,6 +155,8 @@ Multi-factor authentication (MFA) refers to using two or more of the above mecha
   2. Something you have
   3. Something you are
   4. 2FA  
+
+  Answer the questions below
   
   | Question | Answer |
   |-----------|--------|
@@ -175,6 +182,8 @@ Multi-factor authentication (MFA) refers to using two or more of the above mecha
   1. Authorisation
   2. Access Control  
 
+  Answer the questions below
+  
   | Question | Answer |
   |-----------|--------|
   | The new policy states that the secretary should be able to send an email on the manager’s behalf. What is this policy dictating? | 1 |
@@ -207,7 +216,9 @@ Security Information and Event Management (SIEM) is a technology that aggregates
 
   By integrating logging and SIEM, organisations can better understand their system and network activity and oversee potential threats. This integration enables organisations to identify and respond to security threats more effectively.
 
-  Furthermore, the integration of logging and SIEM provides additional benefits such as compliance reporting and forensic investigations. Compliance reporting is an essential part of any organisation’s security framework, and logging helps organisations meet reporting requirements by collecting data necessary for audits. Forensic investigations are crucial in identifying the source and cause of a security incident. Logging and SIEM solutions enable organisations to conduct forensic investigations by providing a detailed system and network activity history.  
+  Furthermore, the integration of logging and SIEM provides additional benefits such as compliance reporting and forensic investigations. Compliance reporting is an essential part of any organisation’s security framework, and logging helps organisations meet reporting requirements by collecting data necessary for audits. Forensic investigations are crucial in identifying the source and cause of a security incident. Logging and SIEM solutions enable organisations to conduct forensic investigations by providing a detailed system and network activity history.
+
+  Answer the questions below
   
   | Question | Answer |
   |-----------|--------|
@@ -235,7 +246,9 @@ Security Information and Event Management (SIEM) is a technology that aggregates
 
   IAM systems help organisations comply with regulatory requirements such as HIPAA, GDPR, and PCI DSS. They provide functionalities to manage the lifecycle of user identities, including onboarding, offboarding, and access revocation. In addition, IAM systems allow organisations to track and audit user activity, which helps to prevent security breaches and ensure compliance with industry regulations.
 
-  IdM and IAM are essential components of cybersecurity. They ensure that only authorised individuals have access to specific resources and information. IdM systems manage user identities, while IAM systems encompass broader functions to manage and secure digital identities and access rights.  
+  IdM and IAM are essential components of cybersecurity. They ensure that only authorised individuals have access to specific resources and information. IdM systems manage user identities, while IAM systems encompass broader functions to manage and secure digital identities and access rights.
+
+  Answer the questions below
   
   | Question | Answer |
   |-----------|--------|
@@ -261,7 +274,9 @@ The situation on the network is even more challenging to secure. If the user sen
   Although the attacker does not know the password, they can still authenticate by replaying the same response. This attack is considered a replay attack. Is there anything we can do to fix this?
 
   Making the Challenge Response Unique
-  An encrypted password that is always the same value is easy to circumvent. We need some mechanism to ensure that the response won’t be reused repeatedly. One approach would be to use the current time and date as part of the response. In other words, the user would send an encryption of the current time (and date) along with the password. Although this requires both parties to synchronise their clocks, it ensures that the response is only valid for a brief time, usually in milliseconds.  
+  An encrypted password that is always the same value is easy to circumvent. We need some mechanism to ensure that the response won’t be reused repeatedly. One approach would be to use the current time and date as part of the response. In other words, the user would send an encryption of the current time (and date) along with the password. Although this requires both parties to synchronise their clocks, it ensures that the response is only valid for a brief time, usually in milliseconds.
+
+  Answer the questions below
 
   | Question | Answer |
   |-----------|--------|
@@ -300,7 +315,9 @@ Role-Based Access Control (RBAC) uses a very intuitive approach. Each user has o
 
   1. DAC
   2. RBAC
-  3. MAC  
+  3. MAC
+ 
+  Answer the questions below
   
   | Question | Answer |
   |-----------|--------|
@@ -322,7 +339,9 @@ Role-Based Access Control (RBAC) uses a very intuitive approach. Each user has o
   - One strong password: Expecting a user to remember a single strong password is more acceptable than asking them to remember ten different strong passwords.
   - Easier MFA: Adding MFA to every different service is a humongous task to accomplish and maintain. With SSO, MFA needs to be enabled and configured once.
   - Simpler Support: Support requests like password reset become more straightforward as they are now confined to a single account.
-  - Efficiency: A user does not need to log in every time they need to access a new service.  
+  - Efficiency: A user does not need to log in every time they need to access a new service.
+ 
+  Answer the questions below
 
   | Question | Answer |
   |-----------|--------|
@@ -336,7 +355,9 @@ Role-Based Access Control (RBAC) uses a very intuitive approach. Each user has o
 
   It is worth repeating that we need to have proper processes in place to help protect the security of the data, systems, and networks. Expressing this in technical terms, protecting the security of a system, for example, means protecting the confidentiality, integrity, and availability of that system. And part of the proper processes required includes appropriate identification, authentication, authorisation, access control, accountability, and logging, among others. Inadequacy in any one process results in the weakening of the security of the respective systems. Securing one process won’t replace securing the other processes.
 
-  <img src="./screenshots3/1.png" alt="Nmap Recon Example" width="2000"><br>
+  <img src="./screenshots4/1.png" alt="Nmap Recon Example" width="500"><br>
+
+  Answer the questions below
   
   | Question | Answer |
   |-----------|--------|
@@ -345,6 +366,8 @@ Role-Based Access Control (RBAC) uses a very intuitive approach. Each user has o
 - ### Conclusion
 
   In this room, we covered the different processes, from identification to logging. We also discussed access control models, SSO, and standards related to authentication and authorisation.
+
+  Answer the questions below
   
   | Question | Answer |
   |-----------|--------|
