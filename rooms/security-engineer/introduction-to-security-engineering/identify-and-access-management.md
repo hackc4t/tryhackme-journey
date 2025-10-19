@@ -334,6 +334,8 @@ Role-Based Access Control (RBAC) uses a very intuitive approach. Each user has o
 - ### Scenarios
 
   It is worth repeating that we need to have proper processes in place to help protect the security of the data, systems, and networks. Expressing this in technical terms, protecting the security of a system, for example, means protecting the confidentiality, integrity, and availability of that system. And part of the proper processes required includes appropriate identification, authentication, authorisation, access control, accountability, and logging, among others. Inadequacy in any one process results in the weakening of the security of the respective systems. Securing one process won’t replace securing the other processes.
+
+  <img src="./screenshots3/1.png" alt="Nmap Recon Example" width="2000">
   
   | Question | Answer |
   |-----------|--------|
