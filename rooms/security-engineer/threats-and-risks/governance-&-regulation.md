@@ -288,6 +288,6 @@ The primary purpose of the SOC 2 audit is to ensure that third-party service pro
   
   | Question | Answer |
   |-----------|--------|
-  | — | THM{S#####_1###} |
+  | Finish the task and capture your own flag | THM{S#####_1###} |
 
 ---
