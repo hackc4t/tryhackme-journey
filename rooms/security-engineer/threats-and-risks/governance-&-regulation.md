@@ -282,6 +282,8 @@ The primary purpose of the SOC 2 audit is to ensure that third-party service pro
 
   Furthermore, the room has highlighted different governance enablers, such as ISO/IEC 27001, NIST 800-53, and NIST Special Publication 800-63B, and explained how they provide information security protection to an organisation. Due to the ongoing emergence of new threats and vulnerabilities, information security is a relative concept. While achieving 100% security is unrealistic, a proactive organisation understands the need to continuously implement robust security policies to mitigate risks and safeguard sensitive data.
 
+  <img src="./screenshots1/1.png" alt="Nmap Recon Example" width="500">
+
   Answer the questions below
   
   | Question | Answer |
